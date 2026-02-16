@@ -22,8 +22,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # --- Configuration & Setup ---
 # IMPORTANT: Paths to Vosk models
-MODEL_EN_PATH = r"C:\Desktop\Projects\python projects\ok driver\new_stt\vosk-model-en-in-0.5"
-MODEL_HI_PATH = r"C:\Desktop\Projects\python projects\ok driver\new_stt\vosk-model-hi-0.22"
+MODEL_EN_PATH = 'vosk-model-en-in-0.5'
+MODEL_HI_PATH = 'vosk-model-hi-0.22'
 CONFIDENCE_THRESHOLD = 0.25 # Adjusted threshold for improved recognition, especially in Hindi
 
 # --- Main Joey Class ---
@@ -648,4 +648,5 @@ class Joey:
 # --- Entry Point ---
 if __name__ == "__main__":
     joey_assistant = Joey()
+
     joey_assistant.start()
