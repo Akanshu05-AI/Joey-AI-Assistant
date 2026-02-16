@@ -1,0 +1,10 @@
+json
+os
+sounddevice
+numpy
+vosk
+scikit-learn
+gTTS
+pygame
+pyttsx3
+datetime
